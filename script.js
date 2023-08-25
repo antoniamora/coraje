@@ -9,7 +9,7 @@ let mostrandoTextoJusto = false;
 columna1.addEventListener('click', function () {
     if (mostrandoTextoCoraje) {
         // Si actualmente estamos mostrando el texto, volvemos a la imagen
-        columna1.innerHTML = '<div class="tarjeta"><div class="izquierda"><img src="coraje.webp" alt="Coraje, el perro cobarde" width="300vw" height="300vh"></div></div>';
+        columna1.innerHTML = '<div class="tarjeta"><div class="izquierda"><img src="coraje.webp" alt="Coraje, el perro cobarde" width="300vw" height="310vh"></div></div>';
         mostrandoTextoCoraje = false; // Cambiamos el estado
     } else {
         // Si no estamos mostrando el texto, lo mostramos
@@ -27,7 +27,7 @@ columna2.addEventListener('click', function () {
         mostrandoTextoMuriel = false; // Cambiamos el estado
     } else {
         columna2.style.backgroundColor = 'white';
-        columna2.textContent = 'Muriel es una anciana muy amable y dulce. Rescató a Coraje y vive en el poblado de Ningún Lugar, con su esposo don Justo Bolsa.';
+        columna2.textContent = 'Muriel es una anciana muy amable y dulce. Rescató a Coraje y vive en el poblado de Ningún Lugar, con su esposo don Justo Bolsa';
         mostrandoTextoMuriel = true;} columna2.style.cursor = 'pointer';});
 
 columna3.addEventListener('click', function () {

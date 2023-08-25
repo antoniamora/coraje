@@ -13,34 +13,23 @@ body {
     background-color: var(--color-secondary);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contenedor {
     display: flex;
-    width: 100%;
+    flex-direction: column; /* Cambia a columna para apilar elementos verticalmente */
+    align-items: center;
+    justify-content: center;
     padding: 0 20px;
-    margin: 100px;
-}
-
-.columna-wrap {
-    display: flex;
-    gap: 20px; /* Espacio entre las columnas verticales */
+    margin-top: 10px;
 }
 
 .tarjeta {
     position: relative;
-    width: 300px;
-    height: 400px;
     cursor: pointer;
-    transform: translateX(-20px) translateY(-150px);
-}
-
-.tarjeta div {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    transform: translateX(-30px) translateY(-80px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,20 +53,44 @@ body {
     transform: perspective(500px) rotateY(360deg);
 }
 
-#columna-1, #columna-2, #columna-3, #columna-1-1 {
-    width: 300px;
+.columna {
+    width: 240px;
     height: 250px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     z-index: 2;
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 50px;
+    /*
     box-shadow: 10px 0px 15px rgba(0,0,0,0.5), 
-                0px 10px 15px rgba(0,0,0,0.5); 
+                0px 10px 15px rgba(0,0,0,0.5); */
+}
+
+.columnas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#columna-2 {
+    height: 50vh;
 }
 
 #columna-2, #columna-3 {
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#computador {
+    position: absolute;
+    right: 0;        
+    top: 0; 
+    z-index: 3;
+    cursor: pointer;
+}
