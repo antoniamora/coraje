@@ -79,7 +79,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
-    border: solid red 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,18 +118,17 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    border: solid red 3px;
     color: white;
     z-index: 9999;
     height: 100vh;
 }
 
 #pantalla {
-    border: solid red 3px;
     font-family: 'Orbitron';
     color:rgb(230, 221, 94);
     height: 70%;
     width: 80%;
     text-align: center;
-    font-size: 23px;
+    font-size: 30px;
+    line-height: 2.5;
 }
