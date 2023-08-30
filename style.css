@@ -95,7 +95,7 @@ p {
     bottom: 10px;
 }
 
-.opcion-1, .opcion-2 {
+.opcion1, .opcion2 {
     height: 10vh;
     width: 50vw;
     background-color: rgb(67, 176, 135);
@@ -108,7 +108,7 @@ p {
     cursor: pointer;
 }
 
-.opcion-1:hover, .opcion-2:hover {
+.opcion1:hover, .opcion2:hover {
     background-color: rgb(76, 202, 154);
     border: 3px solid rgb(129, 129, 129);
     color:rgb(212, 202, 62);
@@ -130,5 +130,5 @@ p {
     width: 80%;
     text-align: center;
     font-size: 30px;
-    line-height: 2.5;
+    line-height: 2;
 }

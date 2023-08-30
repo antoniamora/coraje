@@ -1,0 +1,53 @@
+hay dos opciones: opcion1 y opcion2 que tienen evento onclick
+la pantalla parte vacia y estan las dos opciones
+al apretar una de ellas se despliega primero lo que dice en texto1 o en texto2, al dar el segundo click
+ya aparecen textos que se encuentran entre else if. hay un click count ++ que parte en 0.
+quiero que al llegar al final de opcion2, cuando se acaben todas las opciones, quiero que pase a texto1 (que
+corresponde a opcion1) y muestre el texto que le pertenece con las opciones propias
+
+let opcionElegida;
+let clickCount = 0;
+
+{
+    opcion1 : [
+        {
+            texto : 'QUÉ NECIO... <br> ¿QUIERES SABER DE SOMBRAS DIABÓLICAS?',
+            boton : 'NO LO SÉ'
+        },
+        {
+            texto : 'VAYA PERDEDOR... CLARO QUE LO SABES',
+            boton : 'BUSCAR'
+        },
+        {
+            texto : 'BUSCANDO............ BÚSQUEDA TERMINADA... UN TEMA',
+            boton : 'VER'
+        },
+        {
+            texto : 'SOMBRAS DIABÓLICAS............ OH...... YO NO LAS QUERRÍA EN MI CASA',
+            boton : 'DESHACERSE'
+        },
+        {
+            texto : 'CÓMO DESHACERSE DE LAS SOMBRAS DIABÓLICAS <br> 1. CON UNA CONVERSACIÓN AGRADABLE <br> 2. MÚDATE DE CASA'
+        }
+    ],
+
+    opcion2 : [
+        {
+            texto : 'OYE... NO TIENES QUE TECLEAR TAN FUERTE',
+            boton : 'HAY UN MANIÁTICO EN MI CASA'
+        },
+        {
+            texto : '¿UN MANIÁTICO EN SU CASA?... ¡QUÉ HORRIBLE!',
+            boton : '¡AUXILIO!'
+        },
+        {
+            texto : '¿DÓNDE SE ENCUENTRA?',
+            boton : 'EN NINGÚN LUGAR'
+        },
+        {
+            texto : 'POBRECILLO...... ¿QUÉ PODEMOS HACER POR USTED?',
+        }
+    ]
+
+}
+
