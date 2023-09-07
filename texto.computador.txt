@@ -1,0 +1,102 @@
+const data = 
+{
+    opcion1 : [
+        {
+            texto : 'QUÉ NECIO... <br> ¿QUIERES SABER DE SOMBRAS DIABÓLICAS?',
+            boton : 'NO LO SÉ',
+            audio : new Audio('audio/necio.m4a')
+        },
+        {
+            texto : 'VAYA PERDEDOR... CLARO QUE LO SABES',
+            boton : 'BUSCAR',
+            audio : new Audio('audio/perdedor.m4a')
+        },
+        {
+            texto : 'BUSCANDO............ BÚSQUEDA TERMINADA... UN TEMA',
+            boton : 'VER',
+            audio : new Audio('audio/busqueda.mp3')
+        },
+        {
+            texto : 'SOMBRAS DIABÓLICAS............ OH...... YO NO LAS QUERRÍA EN MI CASA',
+            boton : 'DESHACERSE',
+            audio : new Audio('audio/sombras.m4a')
+        },
+        {
+            texto : 'CÓMO DESHACERSE DE LAS SOMBRAS DIABÓLICAS <br> 1. CON UNA CONVERSACIÓN AGRADABLE <br> 2. MÚDATE DE CASA',
+            audio : new Audio('audio/deshacerse.m4a')
+        }
+    ],
+    opcion2 : [
+        {
+            texto : 'OYE... NO TIENES QUE TECLEAR TAN FUERTE',
+            boton : 'HAY UN MANIÁTICO EN MI CASA',
+            audio : new Audio('audio/teclear.m4a')
+        },
+        {
+            texto : '¿UN MANIÁTICO EN SU CASA?... ¡QUÉ HORRIBLE!',
+            boton : '¡AUXILIO!',
+            audio : new Audio('audio/maniatico.m4a')
+        },
+        {
+            texto : '¿DÓNDE SE ENCUENTRA?',
+            boton : 'EN NINGÚN LUGAR',
+            audio : new Audio('audio/donde.m4a')
+        },
+        {
+            texto : 'POBRECILLO...... ¿QUÉ PODEMOS HACER POR USTED?',
+            boton : ['SOMBRAS TENEBROSAS', 'HOMBRE TOPO'],
+            audio : new Audio('audio/pobrecillo.m4a')
+        }
+    ],
+    opcion3: [
+        {
+            texto : 'APARECEN DURANTE LA LUNA LLENA Y TIENEN PREFERENCIA POR LOS CONEJOS Y LAS PERSONAS',
+            boton : 'MORDEDURA',
+            audio : new Audio('audio/aparecen.m4a')
+        },
+        {
+            texto : 'SI ERES MORDIDO POR UN HOMBRE TOPO, TE CONVIERTES TAMBIÉN EN UNO',
+            boton : '¿QUÉ HAGO?',
+            audio : new Audio('audio/mordedura.m4a')
+        },
+        {
+            texto : 'SI FUERA TÚ, EMPACARÍA UNA GRAN VALIJA Y...',
+            boton : ['CURA', 'AYUDA. BERENJENAS MALAS'],
+            audio : new Audio('audio/valija.m4a')
+        }
+    ],
+    opcion4: [
+        {
+            texto : 'LAS HECHAS A LA BASURA, TONTO',
+            boton : 'SON REALES',
+            audio : new Audio('audio/basura.m4a')
+        },
+        {
+            texto : 'AH... BUENO....... ESO ES DIFERENTE... LAS BERENJENAS SOLO ATACAN A LAS PERSONAS CUANDO NO TIENEN AGUA',
+            boton : ['POR SUPUESTO', 'QUÉ MIEDO'],
+            audio : new Audio('audio/ataque berenjenas.m4a')
+        },
+    ],
+    opcion5: [
+        {
+            texto : 'CLARO QUE POR SUPUESTO...... ¿QUÉ PAREZCO?... ¿UN TOSTADOR?',
+            boton : ['BASTA'],
+            audio : new Audio('audio/tostador.m4a')
+        }, 
+        {
+            texto : 'ESTÁ BIEN... NO TE IRRITES',
+            boton : 'COMPUTADOR TONTO',
+            audio : new Audio('audio/irrites.m4a')
+        },
+        {
+            texto : '¿AH, SÍ? TODO LO QUE PUEDAS DECIRME NO TIENE NINGÚN SENTIDO PARA MÍ......... AH...... EH.... ESPERA, NO OPRIMAS ESE BOTÓN',
+            audio : new Audio('audio/apagar.m4a')
+        }
+    ],
+    opcion6: [
+        {
+            texto : 'LAS CRIATURAS DE CARNE SON REALMENTE PATÉTICAS... SE ASUSTAN DE SU PROPIA SOMBRA....... SI PUDIERA MOVERME, LES MOSTRARÍA TODO LO QUE PUEDE HACERSE SIN MIEDO',
+            audio : new Audio('audio/criaturas de carne.m4a')
+        }
+    ]
+}

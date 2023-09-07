@@ -1,5 +1,9 @@
 const columnas = document.querySelectorAll('.columna');
 let mostrandoTexto = {coraje : false, muriel : false, justo : false};
+const opciones = document.querySelectorAll('.opcion-1, .opcion-2');
+const pantalla = document.getElementById('computador-pantalla');
+let i = 0;
+let elTexto = "";
 
 columnas.forEach(columna => {
     columna.addEventListener('click', function (e) {

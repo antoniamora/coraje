@@ -1,52 +1,53 @@
 const pantalla = document.getElementById('pantalla');
 const botones = document.querySelectorAll('button');
 
-const data = {
+const data = 
+{
     opcion1 : [
         {
             texto : 'QUÉ NECIO... <br> ¿QUIERES SABER DE SOMBRAS DIABÓLICAS?',
             boton : 'NO LO SÉ',
-            audio : new Audio('necio.m4a')
+            audio : new Audio('audio/necio.m4a')
         },
         {
             texto : 'VAYA PERDEDOR... CLARO QUE LO SABES',
             boton : 'BUSCAR',
-            audio : new Audio('perdedor.m4a')
+            audio : new Audio('audio/perdedor.m4a')
         },
         {
             texto : 'BUSCANDO............ BÚSQUEDA TERMINADA... UN TEMA',
             boton : 'VER',
-            audio : new Audio('busqueda.mp3')
+            audio : new Audio('audio/busqueda.mp3')
         },
         {
             texto : 'SOMBRAS DIABÓLICAS............ OH...... YO NO LAS QUERRÍA EN MI CASA',
             boton : 'DESHACERSE',
-            audio : new Audio('sombras.m4a')
+            audio : new Audio('audio/sombras.m4a')
         },
         {
             texto : 'CÓMO DESHACERSE DE LAS SOMBRAS DIABÓLICAS <br> 1. CON UNA CONVERSACIÓN AGRADABLE <br> 2. MÚDATE DE CASA',
-            audio : new Audio('deshacerse.m4a')
+            audio : new Audio('audio/deshacerse.m4a')
         }
     ],
     opcion2 : [
         {
             texto : 'OYE... NO TIENES QUE TECLEAR TAN FUERTE',
             boton : 'HAY UN MANIÁTICO EN MI CASA',
-            audio : new Audio('teclear.m4a')
+            audio : new Audio('audio/teclear.m4a')
         },
         {
             texto : '¿UN MANIÁTICO EN SU CASA?... ¡QUÉ HORRIBLE!',
             boton : '¡AUXILIO!',
-            audio : new Audio('maniatico.m4a')
+            audio : new Audio('audio/maniatico.m4a')
         },
         {
             texto : '¿DÓNDE SE ENCUENTRA?',
             boton : 'EN NINGÚN LUGAR',
-            audio : new Audio('donde.m4a')
+            audio : new Audio('audio/donde.m4a')
         },
         {
             texto : 'POBRECILLO...... ¿QUÉ PODEMOS HACER POR USTED?',
-            audio : new Audio('pobrecillo.m4a')
+            audio : new Audio('audio/pobrecillo.m4a')
         }
     ]
 }
