@@ -1,0 +1,61 @@
+#computador {
+    background-image: url(computador-pantalla.png);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 10px;
+}
+
+.opcion1, .opcion2 {
+    height: 10vh;
+    width: 50vw;
+    background-color: rgb(67, 176, 135);
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(56, 56, 56);
+    padding-top: 10px;
+    font-family: 'Orbitron';
+    color:rgb(230, 221, 94);
+    cursor: pointer;
+}
+
+.opcion1:hover, .opcion2:hover {
+    background-color: rgb(76, 202, 154);
+    border: 3px solid rgb(129, 129, 129);
+    color:rgb(212, 202, 62);
+}
+
+.volver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 9999;
+    height: 100vh;
+}
+
+#pantalla {
+    font-family: 'Orbitron';
+    color:rgb(230, 221, 94);
+    height: 70%;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
