@@ -31,7 +31,7 @@ const ramificacion =
         boton : 'DESHACERSE',
         texto : 'CÓMO DESHACERSE DE LAS SOMBRAS DIABÓLICAS <br> 1. CON UNA CONVERSACIÓN AGRADABLE <br> 2. MÚDATE DE CASA',
         audio : new Audio('audio/deshacerse.m4a'),
-        opciones : ['']
+        opciones : ['j', 'f']
     },
     f : {
         texto : 'OYE... NO TIENES QUE TECLEAR TAN FUERTE',
@@ -41,13 +41,13 @@ const ramificacion =
     },
     g : {
         texto : '¿UN MANIÁTICO EN SU CASA?... ¡QUÉ HORRIBLE!',
-        boton : 'NECESITO AYUDA',
+        boton : '¡AYUDA!',
         audio : new Audio('audio/maniatico.m4a'),
         opciones : ['h']
     },
     h : {
         texto : '¿DÓNDE SE ENCUENTRA?',
-        boton : 'NECESITO AYUDA',
+        boton : 'SÍ. NECESITO AYUDA',
         audio : new Audio('audio/donde.m4a'),
         opciones : ['i']
     },
@@ -61,16 +61,16 @@ const ramificacion =
         texto : 'APARECEN DURANTE LA LUNA LLENA Y TIENEN PREFERENCIA POR LOS CONEJOS Y LAS PERSONAS',
         boton : 'HOMBRE TOPO', 
         audio : new Audio('audio/aparecen.m4a'),
-        opciones : ['k']
+        opciones : ['l']
     },
-    k : {
+    /*k : {
         texto : 'SI ERES MORDIDO POR UN HOMBRE TOPO, TE CONVIERTES TAMBIÉN EN UNO',
         boton : 'MORDEDURA', 
         audio : new Audio('audio/mordedura.m4a'),
         opciones : ['l']
-    },
+    },*/
     l : {
-        texto : 'SI FUERA TÚ, EMPACARÍA UNA GRAN VALIJA Y...',
+        texto : 'SI FUERA TÚ, EMPACARÍA UNA GRAN VALIJA....... Y...',
         boton : '¿QUÉ HAGO?',
         audio : new Audio('audio/valija.m4a'),
         opciones : ['m']
@@ -79,7 +79,7 @@ const ramificacion =
         texto : 'ESTÁ BIEN... NO TE IRRITES', 
         boton : 'NO QUIERO ESO', 
         audio : new Audio('audio/irrites.m4a'),
-        opciones : ['']
+        opciones : ['t']
     },
     n: {
         texto : 'LAS HECHAS A LA BASURA, TONTO',
@@ -97,7 +97,7 @@ const ramificacion =
         texto : 'CLARO QUE POR SUPUESTO...... ¿QUÉ PAREZCO?... ¿UN TOSTADOR?',
         boton : 'POR SUPUESTO',
         audio : new Audio('audio/tostador.m4a'),
-        opciones : ['q']
+        opciones : ['q', 'u']
     },
     q : {
         texto : '¿AH, SÍ? TODO LO QUE PUEDAS DECIRME NO TIENE NINGÚN SENTIDO PARA MÍ... AH... EH... ESPERA, NO OPRIMAS ESE BOTÓN',
@@ -112,16 +112,22 @@ const ramificacion =
         opciones : ['s']
     },
     s : {
-        texto : '.......................................................................... ALERTA DE VIRUS... QUÉ DIABLOS ESTÁ PASANDO. ¿QUIÉN ERES Y QUÉ ES LO QUE QUIERES?',
+        texto : '.......................................................................... ALERTA DE VIRUS... QUÉ DIABLOS ESTÁ PASANDO. ¿QUIÉN ERES? ¿QUÉ ES LO QUE QUIERES?',
         boton : 'DESCARGARÉ ALGO',
         audio : new Audio('audio/virus.m4a'),
         opciones : ['a']
     },
     t : {
-        texto : '',
+        texto : 'RECETA DE SOPA DE ALCACHOFA.................. QUÉ ABURRIDO.......... TIEMPO DE DESCARGA... 43 HORAS',
         boton : 'MEJOR DAME UNA RECETA',
         audio : new Audio('audio/alcachofa.m4a'),
         opciones : ['a']
+    },
+    u : {
+        texto : '25 CENTAVOS PARA LOS PRÓXIMOS CINCO MINUTOS O TU LLAMADA SERÁ INTERRUMPIDA... JEJEJEJE... EH... OYE......... HAY GENTE QUE NO TIENE SENTIDO DEL HUMOR',
+        boton : 'MUY GRACIOSO',
+        audio : new Audio('audio/humor.m4a'),
+        opciones : ['q', 's']
     }
 }
 
