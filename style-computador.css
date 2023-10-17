@@ -12,13 +12,10 @@
 }
 
 .contenedor {
+    position: relative;
     display: flex;
-    position: absolute;
     height: 10vh;
-    width: 50vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 55vw;
     bottom: 10px;
 }
 
@@ -57,5 +54,11 @@
     width: 80%;
     text-align: center;
     font-size: 30px;
-    line-height: 2;
+    line-height: 1.7;
+}
+
+button { 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

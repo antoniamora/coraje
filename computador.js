@@ -118,7 +118,7 @@ const ramificacion =
         opciones : ['a']
     },
     t : {
-        texto : 'RECETA DE SOPA DE ALCACHOFA.................. QUÉ ABURRIDO.......... TIEMPO DE DESCARGA... 43 HORAS',
+        texto : 'RECETA DE SOPA DE ALCACHOFA.................. QUÉ ABURRIDO.......... TIEMPO DE DESCARGA...... 43 HORAS',
         boton : 'MEJOR DAME UNA RECETA',
         audio : new Audio('audio/alcachofa.m4a'),
         opciones : ['a']

@@ -1,5 +1,5 @@
 const columnas = document.querySelectorAll('.columna');
-let mostrandoTexto = {coraje : false, muriel : false, justo : false};
+let mostrandoTexto = {coraje : false, muriel : false, justo : false, katz : false, le_quack : false};
 const opciones = document.querySelectorAll('.opcion-1, .opcion-2');
 const pantalla = document.getElementById('computador-pantalla');
 let i = 0;

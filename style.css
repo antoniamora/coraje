@@ -59,12 +59,20 @@ body {
     height: 20vh;
 }
 
-#justo > img {
+#katz > img {
+    width: 100%;
+}
+
+#justo > img, #le_quack > img {
     width: 80%;
 }
 
 #muriel > img, #coraje > img {
     width: 65%;
+}
+
+#espiritu > img {
+    width: 95%;
 }
 
 p {
